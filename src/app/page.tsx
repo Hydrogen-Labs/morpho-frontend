@@ -7,6 +7,7 @@ import { useState } from 'react';
 
 export default function Page() {
   const [isEarn, setIsEarn] = useState(true);
+
   return (
     <div className="grid grid-cols-3">
       <div className="col-span-1 px-8">
