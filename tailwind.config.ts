@@ -9,21 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Roboto'],
-        audiowide: ['var(--font-audiowide)']
-      },
-      fontSize: {
-        'h1-term': '64px',
-        'h2-term': '32px'
-      },
-      margin: {
-        'h2-term': '16px',
-        'p-term': '16px'
-      },
-      colors: {
-        'h1-term': 'white',
-        'h2-term': 'white',
-        'p-term': 'white'
+        sans: ['Roboto']
       }
     }
   },
