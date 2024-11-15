@@ -11,8 +11,7 @@ import { mainnet } from 'wagmi/chains';
 import './globals.css';
 
 const config = getDefaultConfig({
-  // TODO: change appName and package.json name
-  appName: 'scaffold-next-rainbowkit',
+  appName: 'morpho-frontend',
   projectId: '134f0e99f1b28f5fc5482a9ac6126a51',
   chains: [mainnet],
   ssr: true
@@ -27,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-[#131719]">
         <WagmiProvider config={config}>
           <QueryClientProvider client={queryClient}>
             <RainbowKitProvider>
